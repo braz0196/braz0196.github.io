@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    position: absolute; /* Allows positioning relative to the viewport */
+    top: 40px; /* Positions the list at the top */
+    right: 50px; /* Aligns the list to the right */
+    font-size: large;
+}
+
+.menu-item{
+    display: inline; /* Makes the list items inline */
+    margin-right: 50px; /* Optional: Adds spacing between items */
+    color: white;
+    text-decoration: none;
+}
+
+body {
+
+    background-color: black;
+}
+
+.AboutMe {
+    position: absolute;
+    top: 400px;
+    left: 160px;
+    font-size: 30px;
+    color: white;
+    width: 500px; /* Set a fixed width */
+    padding: 10px; /* Optional: add some padding */
+    word-wrap: break-word;
+}
+
+.Mills {
+
+position: absolute;
+left: 25px;
+top: 20px;
+size: 200px;
+border-radius: 50%;
+pointer-events: none;
+user-select: none;
+
+}
+
+
+.responsive-image {
+
+    position: absolute;
+    left: 750px;
+    width: 687px;
+    height:auto;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+.LinkedinLogo {
+
+    position: absolute;
+    top: 33px;
+    left: 175px;
+    width: 75px;
+    height:auto;
+
+    
+
+
+
+}
